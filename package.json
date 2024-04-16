@@ -1,0 +1,20 @@
+{
+  "name": "@saharzafar/word-counter-project",
+  "version": "1.0.0",
+  "description": "This is simply a word counter that counts the number of words you've entered.",
+  "main": "index.js",
+  "bin": "word-counter.js",
+  "type": "module",
+  "publishConfig": {"access": "public"},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.19"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
