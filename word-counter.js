@@ -3,7 +3,7 @@ import inquirer from "inquirer";
 const result = await inquirer.prompt([{
         name: "sentence",
         type: "input",
-        message: "Please Enter Paragraph or Sentence  to count the words: "
+        message: "Please write Paragraph or Sentence  to count the words: "
     }
 ]);
 const words = result.sentence.trim().split(" ");
